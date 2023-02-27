@@ -39,7 +39,7 @@ public class BaseTest {
             System.out.println("launching chrome browser");
 
             // Set driver path
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Asus\\Downloads\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "chromedriver_win32/chromedriver.exe");
             driver = new ChromeDriver();
 
             // Launching the application
